@@ -1,0 +1,1 @@
+# VerificareFormala-2023
