@@ -1,0 +1,7 @@
+instalat Python 3.9.13 pentru toti utilizatorii.
+descarca https://github.com/Verified-Intelligence/alpha-beta-CROWN
+descarca https://github.com/Verified-Intelligence/auto_LiRPA/
+pip install tqdm
+
+cd auto_LiRPA & python setup.py install
+Checkout examples/vision/simple_verification.py for a complete but very basic example.  - rulat perfect
