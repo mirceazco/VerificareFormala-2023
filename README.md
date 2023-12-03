@@ -1,10 +1,10 @@
 # VerificareFormala-2023
 
 <br>Benchmark: VGGNet16</br>
-<br>Link:</br>
+Link:
 
-Tool #1: Alpha-Beta-Crown
-<br>Link:</br>
+<br>Tool #1: Alpha-Beta-Crown</br>
+Link:
 
-Tool #2: Marabou
+<br>Tool #2: Marabou</br>
 Link: 
