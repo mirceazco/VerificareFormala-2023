@@ -1,7 +1,6 @@
 # VerificareFormala-2023
 
-Benchmark: VGGNet16
-
+<br>Benchmark: VGGNet16</br>
 Link:
 
 Tool #1: Alpha-Beta-Crown
