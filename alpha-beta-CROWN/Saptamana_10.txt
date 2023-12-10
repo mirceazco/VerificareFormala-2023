@@ -1,5 +1,4 @@
-#Error 1
-probleme dupa instalare ->  nu specifica toate modulele care trebuie instalate
+#Error 1: probleme dupa instalare ->  nu specifica toate modulele care trebuie instalate
 
 Module extra de instalat/avut:
 pip install onnx2pytorch --upgrade
@@ -10,13 +9,10 @@ pip install psutil --upgrade
 pip install pandas --upgrade
 pip install sortedcontainers --upgrade
 
+#Error 2: FileNotFoundError: [Errno 2] No such file or directory: 'exp_configs/cifar_resnet_2b.yaml'
+Solution: C:\Users\admin\Desktop\alpha-beta-CROWN-main\complete_verifier>python abcrown.py --config exp_configs/tutorial_examples/cifar_resnet_2b.yaml
 
-#Error 2
-FileNotFoundError: [Errno 2] No such file or directory: 'exp_configs/cifar_resnet_2b.yaml'
-C:\Users\admin\Desktop\alpha-beta-CROWN-main\complete_verifier>python abcrown.py --config exp_configs/tutorial_examples/cifar_resnet_2b.yaml
-
-Solution:
-# (Re-)install Pytorch 1.12.1 (known to work). It might take a few minutes depending on network speed.
-pip uninstall --yes torch torchvision torchaudio torchtext
-pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 --extra-index-url https://download.pytorch.org/whl/cu113
-download.pytorch.org
+#Error 3: (Re-)install Pytorch 1.12.1 (known to work). It might take a few minutes depending on network speed.
+Solution: pip uninstall --yes torch torchvision torchaudio torchtext
+          pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 --extra-index-url https://download.pytorch.org/whl/cu113
+          download.pytorch.org
