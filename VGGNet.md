@@ -80,6 +80,38 @@ Arhitecturile moderne folosesc conexiuni de salt si inceptii pentru a reduce num
 
  - Desi este mai profund si are mai multi parametri decat reteaua AlexNet, speculăm ca VGGNet poate converge in mai putine cicluri din doua motive: in primul rand, adancimea mai mare si convolutiile mai mici aduc o regularizare implicita; in al doilea rand, unele straturi de pre-antrenament.
 
+- Initializarea parametrilor: Pentru o retea A mai superficiala, parametrii sunt initializati aleatoriu, greutatea w fiind mutata din N (0, 0,01), iar bias-ul este initializat la 0. Apoi pentru retelele mai adanci, primele patru straturi de convolutie si cele trei straturi complet conectate sunt initializate cu parametrii retelei A. Cu toate acestea, s-a descoperit ulterior ca este posibil să se initializeze direct fara a utiliza parametrii pre-antrenati.
+
+- Pentru a obtine o imagine de intrare de 224 * 224, fiecare imagine redimensionata este decupata aleator in fiecare iteratie SGD. Pentru a imbunatati setul de date, imaginea decupata este, de asemenea, inversata aleatoriu pe orizontala si schimbata in culoare RGB.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
