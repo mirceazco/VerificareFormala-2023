@@ -69,7 +69,7 @@ Arhitectura VGG16 a obtinut cele mai bune rezultate in ceea ce priveste performa
     <img height="92" width="726" src="https://github.com/mirceazco/VerificareFormala-2023/blob/main/LaTeX/rates.png">
 </div>
 
-
+Arhitecturile moderne folosesc conexiuni de salt si inceptii pentru a reduce numarul de parametri de antrenare, imbunatatind atat precizia, cat si timpul de antrenare.
 
 
 
