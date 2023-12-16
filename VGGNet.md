@@ -76,7 +76,7 @@ Arhitecturile moderne folosesc conexiuni de salt si inceptii pentru a reduce num
 
 <p align="justify"> - <strong> Metoda de optimizare </strong> este o coborare a gradientului stocastica (SGD) + momentum (0,9) cu momentum. Dimensiunea lotului este de 256.
 
-
+- <strong> Regularizare: </strong> Se utilizeaza regularizarea L2, iar descompunerea ponderilor este de 5e-4. Dropout se aplica dupa primele doua straturi complet conectate, p = 0,5.
 
 
 
