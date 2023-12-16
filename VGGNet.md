@@ -32,7 +32,7 @@ Scurta prezentare a arhitecturii:
 
 - <strong> Straturi de convolutie </strong> - filtrele de convolutie ale VGG folosesc campul receptiv cel mai mic posibil de 3x3. VGG utilizeaza, de asemenea, un filtru de convolutie de 1x1 pentru transformarea liniara a intrarii. 
 
-- <strong> ReLu activation </strong> — Activare ReLu - urmeaza componenta Functiei de Activare Liniara Rectificata (ReLU), o inovatie majora a lui AlexNet pentru reducerea timpului de antrenament. ReLU este o functie liniara care 
+- <strong> ReLu activation </strong> — urmeaza componenta Functiei de Activare Liniara Rectificata (ReLU), o inovatie majora a lui AlexNet pentru reducerea timpului de antrenament. ReLU este o functie liniara care 
 furnizeaza o iesire potrivita pentru intrarile pozitive si furnizeaza zero pentru intrarile negative. VGG are o valoare de pas a convolutiei setata la 1 pixel pentru a pastra rezolutia spatiala dupa convolutie.
 
 - <strong> Hidden Layers </strong> - toate straturile ascunse ale retelei VGG folosesc ReLU in loc de Normalizarea Locala a Raspunsului, asa cum se intampla in AlexNet. Aceasta din urma creste timpul de antrenament si consumul de memorie cu o imbunatatire redusa a preciziei generale.
