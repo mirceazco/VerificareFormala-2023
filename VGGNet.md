@@ -40,3 +40,9 @@ furnizeaza o iesire potrivita pentru intrarile pozitive si furnizeaza zero pentr
 - <strong> Pooling layers </strong> – un strat de pooling urmeaza mai multe straturi de convolutie, ajutand la reducerea dimensionalitatii si a numarului de parametri ai hartilor de caracteristici create de fiecare pas de convolutie. Pooling-ul este crucial data fiind cresterea rapida a numarului de filtre disponibile de la 64 la 128, 256 si in cele din urma 512 in straturile finale.
 
 - <strong> Fully connected layers </strong> — VGGNet include trei straturi complet conectate. Primele doua straturi au fiecare 4096 de canale, iar al treilea strat are 1000 de canale, unul pentru fiecare clasa.
+
+
+# VGG Configuration, Training, and Results
+
+
+
