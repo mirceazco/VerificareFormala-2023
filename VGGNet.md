@@ -44,5 +44,5 @@ furnizeaza o iesire potrivita pentru intrarile pozitive si furnizeaza zero pentr
 
 # VGG Configuration, Training, and Results
 
-
+Exista cinci configuratii ale retelei VGG, de la A la E. Adancimea configuratiei creste de la A la B, fiecare cu mai multe straturi adaugate. Tabelul urmator descrie toate arhitecturile posibile ale retelei.
 
