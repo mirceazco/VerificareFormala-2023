@@ -63,9 +63,11 @@ In figura de mai jos putem vedea numarul total de parametri in milioane.
 <p align="justify">Procesul de antrenare al VGG este similar cu cel al lui AlexNet (Krizhevsky et al.). Ambele implica optimizarea unei functii de regresie logistica multinomiala pentru a realiza backpropagation. VGG utilizeaza mini-loturi pentru a evita gradientul care dispare, fenomen generat de adancimea rețelei.
 In timpul antrenamentului, dimensiunea lotului a fost setata la 256, in timp ce momentum a fost setat la 0,9. Modelul VGG a introdus regularizarea dropout in doua dintre straturile complet conectate, cu o rata dropout setata la 0,5. Rata de invatare initiala a retelei a fost de 0,001. Cand acuratetea setului de validare a incetat sa se imbunatateasca, rata de invatare a scazut cu un factor de 10. Rata de invatare a scazut de trei ori, iar antrenamentul s-a incheiat dupa 74 de epoci (370.000 de iteratii).
 
+Arhitectura VGG16 a obtinut cele mai bune rezultate in ceea ce priveste performanta retelei unice (eroare de testare de 7,0%). Tabelul de mai jos prezinta ratele de eroare.
 
-
-
+<div align="center">
+    <img height="92" width="726" src="https://github.com/mirceazco/VerificareFormala-2023/blob/main/LaTeX/rates.png">
+</div>
 
 
 
