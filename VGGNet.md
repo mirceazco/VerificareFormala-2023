@@ -46,3 +46,23 @@ furnizeaza o iesire potrivita pentru intrarile pozitive si furnizeaza zero pentr
 
 Exista cinci configuratii ale retelei VGG, de la A la E. Adancimea configuratiei creste de la A la B, fiecare cu mai multe straturi adaugate. Tabelul urmator descrie toate arhitecturile posibile ale retelei.
 
+<div align="center">
+    <img height="350" width="400" src="https://github.com/mirceazco/VerificareFormala-2023/blob/main/LaTeX/config.png">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
