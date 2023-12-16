@@ -74,7 +74,7 @@ Arhitecturile moderne folosesc conexiuni de salt si inceptii pentru a reduce num
 
 # Training :
 
-<p align="justify"> - **Metoda de optimizare** este o coborare a gradientului stocastica (SGD) + momentum (0,9) cu momentum. Dimensiunea lotului este de 256.
+<p align="justify"> - <strong> Metoda de optimizare </strong>strong> este o coborare a gradientului stocastica (SGD) + momentum (0,9) cu momentum. Dimensiunea lotului este de 256.
 
 
 
