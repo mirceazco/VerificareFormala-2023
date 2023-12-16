@@ -72,9 +72,9 @@ Arhitectura VGG16 a obtinut cele mai bune rezultate in ceea ce priveste performa
 Arhitecturile moderne folosesc conexiuni de salt si inceptii pentru a reduce numarul de parametri de antrenare, imbunatatind atat precizia, cat si timpul de antrenare.
 
 
+# Training :
 
-
-
+<p align="justify"> - **Metoda de optimizare** este o coborare a gradientului stocastica (SGD) + momentum (0,9) cu momentum. Dimensiunea lotului este de 256.
 
 
 
