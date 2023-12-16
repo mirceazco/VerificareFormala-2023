@@ -78,7 +78,7 @@ Arhitecturile moderne folosesc conexiuni de salt si inceptii pentru a reduce num
 
 - <strong> Regularizare: </strong> Se utilizeaza regularizarea L2, iar descompunerea ponderilor este de 5e-4. Dropout se aplica dupa primele doua straturi complet conectate, p = 0,5.
 
-
+ - Desi este mai profund si are mai multi parametri decat reteaua AlexNet, speculăm ca VGGNet poate converge in mai putine cicluri din doua motive: in primul rand, adancimea mai mare si convolutiile mai mici aduc o regularizare implicita; in al doilea rand, unele straturi de pre-antrenament.
 
 
 
