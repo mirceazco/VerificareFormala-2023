@@ -28,7 +28,7 @@ O retea VGG consta in filtre de convolutie mici. VGG16 are trei straturi complet
 Scurta prezentare a arhitecturii:
 
 
-- 'Input' — VGGNet primeste o intrare de imagine de 224×224 pixeli. In competitia ImageNet, creatorii modelului au mentinut dimensiunea constanta a imaginii prin decuparea unei sectiuni de 224×224 de la centrul fiecarei imagini.
+- <strong> Input </strong> — VGGNet primeste o intrare de imagine de 224×224 pixeli. In competitia ImageNet, creatorii modelului au mentinut dimensiunea constanta a imaginii prin decuparea unei sectiuni de 224×224 de la centrul fiecarei imagini.
 
 - Straturi de convolutie - filtrele de convolutie ale VGG folosesc campul receptiv cel mai mic posibil de 3x3. VGG utilizeaza, de asemenea, un filtru de convolutie de 1x1 pentru transformarea liniara a intrarii. 
 
