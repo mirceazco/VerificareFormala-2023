@@ -20,5 +20,5 @@ VGG16 este o retea neurala adanca cu 16 straturi avand un total de 138 milioane 
 Arhitectura VGGNet integreaza cele mai importante caracteristici ale retelelor neurale de convolutie.
 
 <div align="center">
-    <img height="350" width="400" src="https://github.com/vijayg15/Multi-class-Weather-Classification/blob/master/figures_and_plots/cm_wo_norm.png">
+    <img height="350" width="400" src="https://github.com/mirceazco/VerificareFormala-2023/blob/main/LaTeX/vggnet.png.png">
 </div>
