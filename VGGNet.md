@@ -4,6 +4,7 @@ VGG16 aduce imbunatatiri fata de AlexNet si inlocuieste filtrele mari cu secvent
 
 # Motivatia din spatele modelului VGG :
 
-Acest model a diferit de modelele performante anterioare in mai multe moduri. In primul rand, a folosit un mic camp receptiv de 3x3 cu o defazare de 1 pixel - pentru comparatie, AlexNet a folosit un camp receptiv 
+Acest model e diferit de modelele performante anterioare in mai multe moduri. In primul rand, a folosit un mic camp receptiv de 3x3 cu o defazare de 1 pixel - pentru comparatie, AlexNet a folosit un camp receptiv 
 de 11x11 cu o defazare de 4 pixeli. Filtrele de 3x3 se combina pentru a oferi functia unui camp receptiv mai mare.
 
+Ca si beneficii de utilizare avem utilizarea unor straturi mai mici in schimbul unui strat mare
