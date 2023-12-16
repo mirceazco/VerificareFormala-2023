@@ -50,6 +50,21 @@ Exista cinci configuratii ale retelei VGG, de la A la E. Adancimea configuratiei
     <img height="350" width="400" src="https://github.com/mirceazco/VerificareFormala-2023/blob/main/LaTeX/config.png">
 </div>
 
+Fiecare configuratie urmeaza un model arhitectural comun, diferind doar in adancime. Reteaua A are 11 straturi de greutate (8 straturi de convolutie si 3 straturi complet conectate), in timp ce reteaua E are 19 straturi de greutate (16 straturi de convolutie si 3 straturi complet conectate).
+
+Exista cateva canale de straturi de convolutie - numarul variaza de la 64 de canale in primul strat la 512 in ultimul strat (creste cu un factor de doi pentru fiecare strat de max-pooling). 
+
+In figura de mai jos putem vedea numarul total de parametri in milioane.
+
+<div align="center">
+    <img height="350" width="400" src="https://github.com/mirceazco/VerificareFormala-2023/blob/main/LaTeX/parameters.png">
+</div>
+
+
+
+
+
+
 
 
 
