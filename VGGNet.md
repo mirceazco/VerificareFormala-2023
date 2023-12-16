@@ -57,7 +57,7 @@ Exista cateva canale de straturi de convolutie - numarul variaza de la 64 de can
 In figura de mai jos putem vedea numarul total de parametri in milioane.
 
 <div align="center">
-    <img height="724" width="77" src="https://github.com/mirceazco/VerificareFormala-2023/blob/main/LaTeX/parameters.png">
+    <img height="77" width="724" src="https://github.com/mirceazco/VerificareFormala-2023/blob/main/LaTeX/parameters.png">
 </div>
 
 
