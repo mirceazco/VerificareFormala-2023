@@ -30,13 +30,13 @@ Scurta prezentare a arhitecturii:
 
 - <strong> Input </strong> — VGGNet primeste o intrare de imagine de 224×224 pixeli. In competitia ImageNet, creatorii modelului au mentinut dimensiunea constanta a imaginii prin decuparea unei sectiuni de 224×224 de la centrul fiecarei imagini.
 
-- Straturi de convolutie - filtrele de convolutie ale VGG folosesc campul receptiv cel mai mic posibil de 3x3. VGG utilizeaza, de asemenea, un filtru de convolutie de 1x1 pentru transformarea liniara a intrarii. 
+- <strong> Straturi de convolutie </strong> - filtrele de convolutie ale VGG folosesc campul receptiv cel mai mic posibil de 3x3. VGG utilizeaza, de asemenea, un filtru de convolutie de 1x1 pentru transformarea liniara a intrarii. 
 
-- ReLu activation — Activare ReLu - urmeaza componenta Functiei de Activare Liniara Rectificata (ReLU), o inovatie majora a lui AlexNet pentru reducerea timpului de antrenament. ReLU este o functie liniara care 
+- <strong> ReLu activation </strong> — Activare ReLu - urmeaza componenta Functiei de Activare Liniara Rectificata (ReLU), o inovatie majora a lui AlexNet pentru reducerea timpului de antrenament. ReLU este o functie liniara care 
 furnizeaza o iesire potrivita pentru intrarile pozitive si furnizeaza zero pentru intrarile negative. VGG are o valoare de pas a convolutiei setata la 1 pixel pentru a pastra rezolutia spatiala dupa convolutie.
 
-- Hidden Layers - toate straturile ascunse ale retelei VGG folosesc ReLU in loc de Normalizarea Locala a Raspunsului, asa cum se intampla in AlexNet. Aceasta din urma creste timpul de antrenament si consumul de memorie cu o imbunatatire redusa a preciziei generale.
+- <strong> Hidden Layers </strong> - toate straturile ascunse ale retelei VGG folosesc ReLU in loc de Normalizarea Locala a Raspunsului, asa cum se intampla in AlexNet. Aceasta din urma creste timpul de antrenament si consumul de memorie cu o imbunatatire redusa a preciziei generale.
 
-- Pooling layers – un strat de pooling urmeaza mai multe straturi de convolutie, ajutand la reducerea dimensionalitatii si a numarului de parametri ai hartilor de caracteristici create de fiecare pas de convolutie. Pooling-ul este crucial data fiind cresterea rapida a numarului de filtre disponibile de la 64 la 128, 256 si in cele din urma 512 in straturile finale.
+- <strong> Pooling layers </strong> – un strat de pooling urmeaza mai multe straturi de convolutie, ajutand la reducerea dimensionalitatii si a numarului de parametri ai hartilor de caracteristici create de fiecare pas de convolutie. Pooling-ul este crucial data fiind cresterea rapida a numarului de filtre disponibile de la 64 la 128, 256 si in cele din urma 512 in straturile finale.
 
-- Fully connected layers — VGGNet include trei straturi complet conectate. Primele doua straturi au fiecare 4096 de canale, iar al treilea strat are 1000 de canale, unul pentru fiecare clasa.
+- <strong> Fully connected layers </strong> — VGGNet include trei straturi complet conectate. Primele doua straturi au fiecare 4096 de canale, iar al treilea strat are 1000 de canale, unul pentru fiecare clasa.
