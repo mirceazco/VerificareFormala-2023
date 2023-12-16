@@ -30,7 +30,7 @@ Scurta prezentare a arhitecturii:
 
 - Input— VGGNet primeste o intrare de imagine de 224×224 pixeli. In competitia ImageNet, creatorii modelului au mentinut dimensiunea constanta a imaginii prin decuparea unei sectiuni de 224×224 de la centrul fiecarei imagini.
 
-- Straturi de convolutie - filtrele de convolutie ale VGG folosesc campul receptiv cel mai mic posibil de 3x3. VGG utilizeaza, de asemenea, un filtru de convolutie de 1x1 pentru transformarea liniara a intrarii. 
+-** Straturi de convolutie** - filtrele de convolutie ale VGG folosesc campul receptiv cel mai mic posibil de 3x3. VGG utilizeaza, de asemenea, un filtru de convolutie de 1x1 pentru transformarea liniara a intrarii. 
 
 - ReLu activation — Activare ReLu - urmeaza componenta Functiei de Activare Liniara Rectificata (ReLU), o inovatie majora a lui AlexNet pentru reducerea timpului de antrenament. ReLU este o functie liniara care 
 furnizeaza o iesire potrivita pentru intrarile pozitive si furnizeaza zero pentru intrarile negative. VGG are o valoare de pas a convolutiei setata la 1 pixel pentru a pastra rezolutia spatiala dupa convolutie.
