@@ -5,10 +5,10 @@ VGG16 aduce imbunatatiri fata de AlexNet si inlocuieste filtrele mari cu secvent
 
 # Motivatia din spatele modelului VGG :
 
-Acest model e diferit de modelele performante anterioare in mai multe moduri. In primul rand, a folosit un mic camp receptiv de 3x3 cu o defazare de 1 pixel - pentru comparatie, AlexNet a folosit un camp receptiv 
+<p align="justify">Acest model e diferit de modelele performante anterioare in mai multe moduri. In primul rand, a folosit un mic camp receptiv de 3x3 cu o defazare de 1 pixel - pentru comparatie, AlexNet a folosit un camp receptiv 
 de 11x11 cu o defazare de 4 pixeli. Filtrele de 3x3 se combina pentru a oferi functia unui camp receptiv mai mare.
 
-Ca si **beneficii de utilizare** avem utilizarea unor straturi mai mici in locul unui singur strat mare, mia multe straturi active non-liniarea insotesc straturi de convolutie imbunatating functiile de decizie si permitand retelei sa converga mai repede.
+<p align="justify">Ca si **beneficii de utilizare** avem utilizarea unor straturi mai mici in locul unui singur strat mare, mia multe straturi active non-liniarea insotesc straturi de convolutie imbunatating functiile de decizie si permitand retelei sa converga mai repede.
 Un alt beneficiu ar fi acela ca VGG foloseste un filtru de convolutie mai mic ceea ce reduce tendinta retelei de a face overfitting in timpul exercitiilor de antrenament. Un filtru de **3x3** este de dimensiune optima deoarece o dimensiune mai mica nu poate captura informatii de la stanga la dreapta si de sus in jos. Astfel, VGG este cel mai mic model posibil pentru a intelege caracteristicile spatiale ale unei imagini.
 Convolutiile constante de 3x3 fac reteaua usor de gestionat.
 
@@ -16,7 +16,7 @@ Convolutiile constante de 3x3 fac reteaua usor de gestionat.
 
 # Arhitectura VGG16 :
 
-VGG16 este o retea neurala adanca cu 16 straturi avand un total de 138 milioane de parametri. Cu toate acestea, simplitatea arhitecturii VGGNet16 reprezinta principala sa atractie.
+<p align="justify">VGG16 este o retea neurala adanca cu 16 straturi avand un total de 138 milioane de parametri. Cu toate acestea, simplitatea arhitecturii VGGNet16 reprezinta principala sa atractie.
 Arhitectura VGGNet integreaza cele mai importante caracteristici ale retelelor neurale de convolutie.
 
 <div align="center">
