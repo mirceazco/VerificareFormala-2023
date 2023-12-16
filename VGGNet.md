@@ -13,4 +13,5 @@ Un alt beneficiu ar fi acela ca VGG foloseste un filtru de convolutie mai mic ce
 Convolutiile constante de 3x3 fac reteaua usor de gestionat.
 
 
+
 # Arhitectura VGG16 :
