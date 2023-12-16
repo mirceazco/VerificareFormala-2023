@@ -8,7 +8,7 @@ VGG16 aduce imbunatatiri fata de AlexNet si inlocuieste filtrele mari cu secvent
 <p align="justify">Acest model e diferit de modelele performante anterioare in mai multe moduri. In primul rand, a folosit un mic camp receptiv de 3x3 cu o defazare de 1 pixel - pentru comparatie, AlexNet a folosit un camp receptiv 
 de 11x11 cu o defazare de 4 pixeli. Filtrele de 3x3 se combina pentru a oferi functia unui camp receptiv mai mare.
 
-<p align="justify">Ca si **beneficii de utilizare ** avem utilizarea unor straturi mai mici in locul unui singur strat mare, mia multe straturi active non-liniarea insotesc straturi de convolutie imbunatating functiile de decizie si permitand retelei sa converga mai repede.
+<p align="justify">Ca si beneficii de utilizare avem utilizarea unor straturi mai mici in locul unui singur strat mare, mia multe straturi active non-liniarea insotesc straturi de convolutie imbunatating functiile de decizie si permitand retelei sa converga mai repede.
 Un alt beneficiu ar fi acela ca VGG foloseste un filtru de convolutie mai mic ceea ce reduce tendinta retelei de a face overfitting in timpul exercitiilor de antrenament. Un filtru de **3x3** este de dimensiune optima deoarece o dimensiune mai mica nu poate captura informatii de la stanga la dreapta si de sus in jos. Astfel, VGG este cel mai mic model posibil pentru a intelege caracteristicile spatiale ale unei imagini.
 Convolutiile constante de 3x3 fac reteaua usor de gestionat.
 
@@ -30,12 +30,13 @@ Scurta prezentare a arhitecturii:
 
 - Input— VGGNet primeste o intrare de imagine de 224×224 pixeli. In competitia ImageNet, creatorii modelului au mentinut dimensiunea constanta a imaginii prin decuparea unei sectiuni de 224×224 de la centrul fiecarei imagini.
 
-Convolutional layers—the convolutional filters of VGG use the smallest possible receptive field of 3×3. VGG also uses a 1×1 convolution filter as the input’s linear transformation. 
+- Straturi de convolutie - filtrele de convolutie ale VGG folosesc campul receptiv cel mai mic posibil de 3x3. VGG utilizeaza, de asemenea, un filtru de convolutie de 1x1 pentru transformarea liniara a intrarii. 
 
-ReLu activation—next is the Rectified Linear Unit Activation Function (ReLU) component, AlexNet’s major innovation for reducing training time. ReLU is a linear function that provides a matching output for positive inputs and outputs zero for negative inputs. VGG has a set convolution stride of 1 pixel to preserve the spatial resolution after convolution (the stride value reflects how many pixels the filter “moves” to cover the entire space of the image).
+- ReLu activation — Activare ReLu - urmeaza componenta Functiei de Activare Liniara Rectificata (ReLU), o inovatie majora a lui AlexNet pentru reducerea timpului de antrenament. ReLU este o functie liniara care 
+furnizeaza o iesire potrivita pentru intrarile pozitive si furnizeaza zero pentru intrarile negative. VGG are o valoare de pas a convolutiei setata la 1 pixel pentru a pastra rezolutia spatiala dupa convolutie.
 
-Hidden layers—all the VGG network’s hidden layers use ReLU instead of Local Response Normalization like AlexNet. The latter increases training time and memory consumption with little improvement to overall accuracy.
+- Hidden Layers - toate straturile ascunse ale retelei VGG folosesc ReLU in loc de Normalizarea Locala a Raspunsului, asa cum se intampla in AlexNet. Aceasta din urma creste timpul de antrenament si consumul de memorie cu o imbunatatire redusa a preciziei generale.
 
-Pooling layers–A pooling layer follows several convolutional layers—this helps reduce the dimensionality and the number of parameters of the feature maps created by each convolution step. Pooling is crucial given the rapid growth of the number of available filters from 64 to 128, 256, and eventually 512 in the final layers.
+- Pooling layers – un strat de pooling urmeaza mai multe straturi de convolutie, ajutand la reducerea dimensionalitatii si a numarului de parametri ai hartilor de caracteristici create de fiecare pas de convolutie. Pooling-ul este crucial data fiind cresterea rapida a numarului de filtre disponibile de la 64 la 128, 256 si in cele din urma 512 in straturile finale.
 
-Fully connected layers—VGGNet includes three fully connected layers. The first two layers each have 4096 channels, and the third layer has 1000 channels, one for every class.
+- Fully connected layers — VGGNet include trei straturi complet conectate. Primele doua straturi au fiecare 4096 de canale, iar al treilea strat are 1000 de canale, unul pentru fiecare clasa.
